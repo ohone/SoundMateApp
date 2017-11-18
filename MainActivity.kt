@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
                 var network1 = network()
                 network1.execute("hello")
                 message.setText("sent packet")
+                var b = ""
                 return@OnNavigationItemSelectedListener true
             }
         }
